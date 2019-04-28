@@ -44,7 +44,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
             locationManager.startUpdatingLocation()
         }
     }
-    
+    //
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations.first
         let latitude = manager.location?.coordinate.latitude
