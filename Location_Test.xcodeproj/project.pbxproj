@@ -14,6 +14,7 @@
 		69CD75C322623DB400D182CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CD75C122623DB400D182CA /* LaunchScreen.storyboard */; };
 		69CD75CE22623DB400D182CA /* Location_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD75CD22623DB400D182CA /* Location_TestTests.swift */; };
 		69CD75D922623DB400D182CA /* Location_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD75D822623DB400D182CA /* Location_TestUITests.swift */; };
+		69CD75E82262A6FF00D182CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CD75E72262A6FF00D182CA /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		69CD75D422623DB400D182CA /* Location_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Location_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CD75D822623DB400D182CA /* Location_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_TestUITests.swift; sourceTree = "<group>"; };
 		69CD75DA22623DB400D182CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CD75E72262A6FF00D182CA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CD75E82262A6FF00D182CA /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				69CD75CC22623DB400D182CA /* Location_TestTests */,
 				69CD75D722623DB400D182CA /* Location_TestUITests */,
 				69CD75B622623DB100D182CA /* Products */,
+				69CD75E62262A6FF00D182CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				69CD75DA22623DB400D182CA /* Info.plist */,
 			);
 			path = Location_TestUITests;
+			sourceTree = "<group>";
+		};
+		69CD75E62262A6FF00D182CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69CD75E72262A6FF00D182CA /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
